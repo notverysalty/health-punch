@@ -1,0 +1,11 @@
+{
+  "name": "health-punch",
+  "version": "1.0",
+  "main": "index.js",
+  "repository": "git@github.com:notverysalty/health-punch.git",
+  "author": "617",
+  "license": "MIT",
+  "dependencies": {
+    "uview-ui": "^1.8.2"
+  }
+}
