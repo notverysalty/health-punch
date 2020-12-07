@@ -6,6 +6,8 @@
   "author": "617",
   "license": "MIT",
   "dependencies": {
+    "node-sass": "^5.0.0",
+    "sass-loader": "^10.1.0",
     "uview-ui": "^1.8.2"
   }
 }

@@ -1,16 +1,51 @@
 {
-	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
-		{
-			"path": "pages/index/index",
-			"style": {
-				"navigationBarTitleText": "uni-app"
-			}
-		}
-	],
-	"globalStyle": {
-		"navigationBarTextStyle": "black",
-		"navigationBarTitleText": "uni-app",
-		"navigationBarBackgroundColor": "#F8F8F8",
-		"backgroundColor": "#F8F8F8"
-	}
+  "easycom": {
+    "custom": {
+      "^u-(.*)": "@/components/uview-ui/components/u-$1/u-$1.vue"
+    }
+  },
+  "pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+    {
+      "path": "pages/tabBar/homePage/index",
+      "style": {
+        "navigationBarTitleText": "首页"
+      }
+    }, {
+      "path": "pages/tabBar/functionPage/index",
+      "style": {
+        "navigationBarTitleText": "功能"
+      }
+    }, {
+      "path": "pages/tabBar/messagePage/index",
+      "style": {
+        "navigationBarTitleText": "消息"
+      }
+    }, {
+      "path": "pages/tabBar/myPage/index",
+      "style": {
+        "navigationBarTitleText": "我的"
+      }
+    }
+  ],
+  "tabBar": {
+    "list": [{
+      "pagePath": "pages/tabBar/homePage/index",
+      "text": "首页"
+    }, {
+      "pagePath": "pages/tabBar/functionPage/index",
+      "text": "功能"
+    }, {
+      "pagePath": "pages/tabBar/messagePage/index",
+      "text": "消息"
+    }, {
+      "pagePath": "pages/tabBar/myPage/index",
+      "text": "我的"
+    }]
+  },
+  "globalStyle": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  }
 }
